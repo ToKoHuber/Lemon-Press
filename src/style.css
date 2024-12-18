@@ -3,8 +3,18 @@
   padding: 0px;
   margin: 0px;
 }
-
+.container-1 .left img {
+  width: 378px;
+  height: 190px;
+}
 .container-1 {
+  width: 1180px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.BigCard {
   background-color: aqua;
   width: 778px;
   height: 520px;
@@ -41,4 +51,31 @@
   font-size: 12px;
   font-weight: 400px;
   line-height: 16.8px;
+}
+
+.container-2 {
+  width: 1180px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+.container-2 > div {
+  width: 380px;
+  height: 493px;
+  background-color: aqua;
+  border-radius: 6px;
+}
+
+.container-2 .left h2 {
+  color: rgb(255, 255, 255);
+  font-size: 17px;
+  font-weight: 500px;
+  line-height: 20.4px;
+}
+
+.container-2 .right img {
+  width: 380px;
+  height: 135px;
+  object-fit: cover;
+  margin-bottom: 22px;
 }

@@ -1,0 +1,25 @@
+.SmallCard {
+  width: 378px;
+  height: 120px;
+  padding: 13px 18px;
+}
+
+.SmallCard h3 {
+  border-radius: 4px;
+  color: rgb(0, 64, 212);
+  font-size: 10px;
+  font-weight: 700px;
+  line-height: 14px;
+}
+.SmallCard h2 {
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 700px;
+  color: black;
+}
+.SmallCard h4 {
+  color: rgb(114, 128, 143);
+  font-size: 12px;
+  font-weight: 400px;
+  line-height: 16.8px;
+}

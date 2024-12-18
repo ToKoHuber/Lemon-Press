@@ -1,9 +1,11 @@
 import BigCard from "./components/BigCard";
 import SmallCard from "./components/small-card";
 import PostsCard from "./components/PostsCard";
+import SinglePostCard from "./components/SinglePostCard";
 import "./style.css";
 import "./small-card.css";
 import "./postsCard.css";
+import "./SinglePostCard.css";
 
 const BigCardContent = {
   image:
@@ -99,6 +101,11 @@ const PostsCardCOntent = [
   },
 ];
 
+const SinglePostCardContent = {
+  category: "ХЭВЛЭЛИЙН МЭДЭЭ",
+  title: "Monkondi брэнд Just Chocolate-г зах зээлд нэвтрүүллээ",
+};
+
 const App = () => {
   return (
     <div>
@@ -136,7 +143,12 @@ const App = () => {
             })}
           </div>
         </div>
-        <div className="center"></div>
+        <div className="center">
+          <SinglePostCard
+            category={SinglePostCardContent.category}
+            title={SinglePostCardContent.title}
+          />
+        </div>
         <div className="right">
           <img
             src="https://dash-api.yld.mn/api/image/f64012ed-9f61-469c-934e-593a79b152d2"

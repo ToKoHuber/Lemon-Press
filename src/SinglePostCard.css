@@ -1,0 +1,10 @@
+.SinglePostCard {
+  width: 380px;
+  height: 493px;
+  background-image: url("https://dash-api.yld.mn/api/image/28b2bfc0-03b5-41d1-befc-0b4e483c81f8");
+  background-position: center;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+}

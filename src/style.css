@@ -3,15 +3,13 @@
   padding: 0px;
   margin: 0px;
 }
-.container-1 .left img {
-  width: 378px;
-  height: 190px;
-}
+
 .container-1 {
   width: 1180px;
   margin: auto;
   display: flex;
   justify-content: space-between;
+  margin-bottom: 22px;
 }
 
 .BigCard {

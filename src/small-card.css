@@ -1,6 +1,17 @@
+.container-1 .left {
+  width: 324px;
+  max-height: 498px;
+  border: 1px solid #efefef;
+}
+
+.container-1 .left img {
+  width: 322px;
+  height: 190px;
+}
+
 .SmallCard {
-  width: 378px;
-  height: 120px;
+  width: 322px;
+  height: 118px;
   padding: 13px 18px;
 }
 

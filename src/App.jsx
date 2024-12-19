@@ -109,6 +109,11 @@ const SinglePostCardContent = {
 const App = () => {
   return (
     <div>
+      <div className="header">
+        <div className="logo"></div>
+        <div className="category"></div>
+        <div className="SubButton"></div>
+      </div>
       <div className="container-1">
         <div className="right">
           <BigCard

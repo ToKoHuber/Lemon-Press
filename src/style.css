@@ -13,7 +13,7 @@
 }
 
 .BigCard {
-  background-color: aqua;
+  /* background-color: aqua; */
   width: 778px;
   height: 520px;
 }
@@ -60,7 +60,7 @@
 .container-2 > div {
   width: 380px;
   height: 493px;
-  background-color: aqua;
+  /* background-color: aqua; */
   border-radius: 6px;
 }
 

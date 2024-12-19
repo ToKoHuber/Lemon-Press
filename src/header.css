@@ -1,0 +1,25 @@
+.header-frame {
+  width: 100%;
+  height: 65px;
+  display: flex;
+  padding: 0px 28px;
+  align-items: center;
+}
+.header-logo {
+  width: 150px;
+  height: 40px;
+  padding: 5px 0px;
+  margin-right: 25px;
+}
+
+.header-logo img {
+  width: 150px;
+  height: 22px;
+}
+.MainSections {
+  gap: 10px;
+}
+
+.SubButton {
+  margin-left: auto;
+}

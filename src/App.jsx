@@ -2,10 +2,14 @@ import BigCard from "./components/BigCard";
 import SmallCard from "./components/small-card";
 import PostsCard from "./components/PostsCard";
 import SinglePostCard from "./components/SinglePostCard";
+import HeaderCard from "./components/Header";
+import NewsLetterSub from "./components/NewsLetterSUb";
 import "./style.css";
 import "./small-card.css";
 import "./postsCard.css";
 import "./SinglePostCard.css";
+import "./header.css";
+import "./newslettersub.css";
 
 const BigCardContent = {
   image:
@@ -109,11 +113,7 @@ const SinglePostCardContent = {
 const App = () => {
   return (
     <div>
-      <div className="header">
-        <div className="logo"></div>
-        <div className="category"></div>
-        <div className="SubButton"></div>
-      </div>
+      <HeaderCard />
       <div className="container-1">
         <div className="right">
           <BigCard
@@ -170,6 +170,7 @@ const App = () => {
           })}
         </div>
       </div>
+      <NewsLetterSub />
     </div>
   );
 };

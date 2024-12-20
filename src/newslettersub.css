@@ -1,33 +1,91 @@
-.SubBackgroundFramme {
-  /* background-image: url("https://lemonpress.mn/assets/subscribe-cover.png"); */
-  width: 1180px;
-  height: 310px;
-
-  border-radius: 6px;
-  /* position: absolute; */
-  overflow: hidden;
-  background-color: aqua;
-}
-
-.SubBackgroundFramme img {
-  width: 1180px;
-  height: 310px;
-}
-
 .NewsLetterSub {
-  position: relative;
+  background-image: url("https://lemonpress.mn/assets/subscribe-cover.png");
+  background: linear-gradient(0deg, #0040d4, #004dff);
   width: 1180px;
   height: 310px;
   margin: auto;
+  margin-top: 22px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 6px;
 }
 
-.SubBackgroundContentFramme {
-  /* background-image: url("https://lemonpress.mn/assets/subscribe-cover.png"); */
-  width: 1035px;
+.NewsLetterSubFrame {
+  width: 1100px;
   height: 230px;
-  background-color: aqua;
-  position: absolute;
-  top: 0;
-  z-index: 10;
-  margin: auto;
+  border-radius: 6px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  padding: 33px 45px 26px 45px;
+}
+
+.NewsLetterSubContents {
+  /* width: 1100px;
+  height: 230px;
+  padding: 33px 45px 26px 45px; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.newsletter-title {
+  font-size: 10px;
+  text-transform: uppercase;
+  color: #72808f;
+  font-weight: 500px;
+  text-align: center;
+}
+
+.newsletter-promise {
+  font-size: 24px;
+  font-weight: 700px;
+  line-height: 28.8px;
+  text-align: center;
+  color: black;
+}
+
+.newsletter-promise-bold-text {
+  color: rgb(0, 64, 212);
+}
+
+.Newsletter-email {
+  width: 300px;
+  height: 52px;
+  padding: 12px 20px;
+  border: 2px solid rgb(0, 64, 212);
+  border-top-left-radius: 6px;
+  border-bottom-left-radius: 6px;
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  font-size: 16px;
+  font-weight: 300px;
+  line-height: 24px;
+  overflow: clip;
+}
+
+.Newsletter-Button {
+  width: 130px;
+  height: 52px;
+  padding: 0px 16px;
+  border: 1px rgba(0, 0, 0, 0) solid;
+  color: white;
+  background-color: rgb(0, 64, 212);
+  border-top-right-radius: 6px;
+  border-bottom-right-radius: 6px;
+  font-size: 16px;
+}
+
+.newsletter-desc {
+  width: 520px;
+  height: 39px;
+  color: color rgb(0, 0, 0);
+  font-size: 13px;
+  font-weight: 400px;
+  line-height: 19.5px;
+  opacity: 0.5;
+  text-align: center;
+  text-size-adjust: 100%;
 }

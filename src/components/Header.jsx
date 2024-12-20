@@ -6,15 +6,15 @@ const MainSection = [
   "Бидний тухай",
 ];
 
-const HeaderCard = (props) => {
+export const header = (props) => {
   return (
     <div className="header-frame">
-      <div className="header-logo">
+      <div className="logo">
         <img src="https://lemonpress.mn/logo/lemonpress.svg" alt="" />
       </div>
       <div className="MainSections">
         {MainSection.map((section) => {
-          return section;
+          return <div className="MainSectionsDiv"> {section} </div>;
         })}
       </div>
       <div className="SubButton">
@@ -61,10 +61,12 @@ const HeaderCard = (props) => {
             </g>
           </g>
         </svg>
-        <button type="input">Уншаад үзье</button>
+        <button type="input" className="HeaderButton">
+          Уншаад үзье
+        </button>
       </div>
     </div>
   );
 };
 
-export default HeaderCard;
+export default header;

@@ -1,0 +1,11 @@
+.VideoBannerImg {
+  width: 1180px;
+  height: 135px;
+  margin: auto;
+  margin-top: 25px;
+  margin-bottom: 22px;
+}
+.VideoBannerImg img {
+  width: 1180px;
+  height: 135px;
+}

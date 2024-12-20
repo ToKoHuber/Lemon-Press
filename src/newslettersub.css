@@ -1,16 +1,33 @@
-.SubBackGroundFramme {
-  background-image: url("https://lemonpress.mn/assets/subscribe-cover.png");
+.SubBackgroundFramme {
+  /* background-image: url("https://lemonpress.mn/assets/subscribe-cover.png"); */
+  width: 1180px;
+  height: 310px;
+
+  border-radius: 6px;
+  /* position: absolute; */
+  overflow: hidden;
+  background-color: aqua;
+}
+
+.SubBackgroundFramme img {
+  width: 1180px;
+  height: 310px;
+}
+
+.NewsLetterSub {
+  position: relative;
   width: 1180px;
   height: 310px;
   margin: auto;
-  border-radius: 6px;
-  position: absolute;
 }
 
-.SubBackGroundContentFramme {
+.SubBackgroundContentFramme {
+  /* background-image: url("https://lemonpress.mn/assets/subscribe-cover.png"); */
   width: 1035px;
   height: 230px;
   background-color: aqua;
-  position: relative;
+  position: absolute;
+  top: 0;
+  z-index: 10;
   margin: auto;
 }

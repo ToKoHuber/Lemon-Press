@@ -1,0 +1,45 @@
+.Post-Banner {
+  display: flex;
+  width: 1180px;
+  height: 36px;
+  margin: auto;
+  border-radius: 6px;
+  background-color: rgb(245, 248, 252);
+  margin-bottom: 22px;
+  overflow: hidden;
+}
+
+.Post-Banner-Button {
+  text-transform: uppercase;
+  width: 85px;
+  height: 35px;
+  padding: 10px 16px;
+  background-color: rgb(251, 218, 4);
+  animation-delay: 0s;
+  animation-direction: normal;
+  animation-duration: 1s;
+  animation-fill-mode: none;
+  animation-iteration-count: infinite;
+  animation-play-state: running;
+  animation-timing-function: ease;
+  color: rgb(0, 0, 0);
+  cursor: auto;
+  font-size: 10px;
+  font-weight: 700px;
+  line-height: 15px;
+  text-align: start;
+  text-align: center;
+}
+
+.Post-Banner-Text {
+  width: 1095px;
+  height: 35px;
+  color: black;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700px;
+  line-height: 22.5px;
+  padding: 10px 16px;
+  text-align: start;
+  cursor: pointer;
+}

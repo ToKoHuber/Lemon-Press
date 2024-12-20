@@ -1,10 +1,12 @@
 const NewsLetterSub = () => {
   return (
-    <div>
-      <div className="SubBackGroundBacFramme"></div>
-      <div className="SubBackGroundContentFramme">
+    <div className="NewsLetterSub">
+      <div className="SubBackgroundContentFramme">
         <div></div>
         <div></div>
+      </div>
+      <div className="SubBackgroundFramme">
+        <img src="https://lemonpress.mn/assets/subscribe-cover.png" alt="" />
       </div>
     </div>
   );

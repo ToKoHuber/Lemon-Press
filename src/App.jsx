@@ -4,12 +4,16 @@ import PostsCard from "./components/PostsCard";
 import SinglePostCard from "./components/SinglePostCard";
 import HeaderCard from "./components/Header";
 import NewsLetterSub from "./components/NewsLetterSUb";
+import VideoBanner from "./components/VideoBanner";
+import PostBanner from "./components/PostBanner";
 import "./style.css";
 import "./small-card.css";
 import "./postsCard.css";
 import "./SinglePostCard.css";
 import "./header.css";
 import "./newslettersub.css";
+import "./video-banner.css";
+import "./post-banner.css";
 
 const BigCardContent = {
   image:
@@ -114,6 +118,8 @@ const App = () => {
   return (
     <div>
       <HeaderCard />
+      <VideoBanner />
+      <PostBanner />
       <div className="container-1">
         <div className="right">
           <BigCard

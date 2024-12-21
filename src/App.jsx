@@ -6,6 +6,7 @@ import HeaderCard from "./components/Header";
 import NewsLetterSub from "./components/NewsLetterSUb";
 import VideoBanner from "./components/VideoBanner";
 import PostBanner from "./components/PostBanner";
+import PostAndAds from "./components/PostAndAds";
 import "./style.css";
 import "./small-card.css";
 import "./postsCard.css";
@@ -14,6 +15,7 @@ import "./header.css";
 import "./newslettersub.css";
 import "./video-banner.css";
 import "./post-banner.css";
+import "./post-and-ads.css";
 
 const BigCardContent = {
   image:
@@ -177,6 +179,7 @@ const App = () => {
         </div>
       </div>
       <NewsLetterSub />
+      <PostAndAds />
     </div>
   );
 };

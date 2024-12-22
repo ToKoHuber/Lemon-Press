@@ -8,3 +8,26 @@
   flex-direction: column;
   justify-content: end;
 }
+
+.SinglePostCardText {
+  width: 380px;
+  padding: 50px 18px 13px 18px;
+}
+
+.SinglePostCard h2 {
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  font-size: 10px;
+  font-weight: 700;
+  line-height: 15px;
+  font-style: normal;
+}
+
+.SinglePostCard h3 {
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  font-size: 19px;
+  font-weight: 700;
+  line-height: 22.8px;
+  font-style: normal;
+}

@@ -1,0 +1,90 @@
+.PostByCategory-main {
+  width: 1180px;
+  height: 447px;
+  margin: auto;
+}
+
+.PostByCategory-top {
+  width: 1180px;
+  height: 46px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 22px;
+  margin-bottom: 22px;
+}
+
+.PostByCategory-title {
+  color: rgb(0, 0, 0);
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 36px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.PostByCategory-more {
+  color: rgb(0, 0, 0);
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 19.5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  display: flex;
+  align-items: center;
+}
+
+.PostByCategory-section-line {
+  border-bottom: 1px solid #888;
+}
+.PostByCategory-bottom {
+  display: flex;
+  justify-content: space-between;
+}
+
+.PostByCategory-content {
+  width: 378px;
+  height: 355px;
+  border-radius: 6px;
+  border: 1px solid rgb(239, 239, 239);
+  overflow: hidden;
+}
+
+.PostByCategory-image img {
+  width: 378px;
+  height: 222px;
+}
+
+.PostByCategory-text {
+  width: 378px;
+  height: 132px;
+  padding: 13px 18px;
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
+}
+
+.PostByCategory-text h2 {
+  color: rgb(0, 64, 212);
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 14px;
+}
+
+.PostByCategory-text h3 {
+  color: rgb(0, 0, 0);
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 21.25px;
+}
+
+.PostByCategory-text h4 {
+  color: rgb(114, 128, 143);
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16.8px;
+}

@@ -1,4 +1,91 @@
+.post-ads {
+  width: 1180px;
+  margin: auto;
+  margin-top: 22px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.post-ads-posts {
+  width: 778px;
+  height: 188px;
+  display: flex;
+  margin: auto;
+}
+
 .post-ads-post-img img {
-  width: 500px;
-  height: 200px;
+  width: 320px;
+  height: 188px;
+}
+
+.post-ads-post-details {
+  width: 455px;
+  height: 188px;
+  padding: 13px 18px;
+}
+
+.post-ads-post-details h2 {
+  color: rgb(0, 64, 212);
+  cursor: pointer;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 700px;
+  line-height: 14px;
+  text-transform: uppercase;
+  margin-bottom: 5px;
+}
+
+.post-ads-post-details h3 {
+  color: rgb(0, 0, 0);
+  font-size: 17px;
+  font-weight: 700;
+  font-style: normal;
+  line-height: 21.25px;
+  margin-bottom: 10px;
+}
+
+.post-ads-post-details h4 {
+  color: rgb(114, 128, 143);
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16.8px;
+}
+
+.post-adbanner {
+  width: 780px;
+  height: 125px;
+  margin-top: 22px;
+  margin-bottom: 22px;
+}
+
+.post-adbanner img {
+  width: 780px;
+  height: 125px;
+}
+
+.post-viewmore {
+  width: 780px;
+  height: 37px;
+  color: rgb(0, 0, 0);
+  font-size: 16px;
+  font-weight: 400px;
+  line-height: 24px;
+  font-style: normal;
+  text-align: center;
+  background-color: rgb(245, 248, 252);
+  margin-top: 22px;
+  margin-bottom: 30px;
+  padding: 7px 20px 6px 20px;
+}
+
+.post-ads-ads {
+  width: 380px;
+  position: sticky;
+  top: 0;
+  bottom: 0;
+}
+
+.post-ads-ads img {
+  width: 380px;
 }

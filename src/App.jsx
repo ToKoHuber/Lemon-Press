@@ -8,6 +8,7 @@ import VideoBanner from "./components/VideoBanner";
 import PostBanner from "./components/PostBanner";
 import PostAndAds from "./components/PostAndAds";
 import PostByCategory from "./components/PostByCategory";
+import Footer from "./components/Footer";
 import "./style.css";
 import "./small-card.css";
 import "./postsCard.css";
@@ -18,6 +19,7 @@ import "./video-banner.css";
 import "./post-banner.css";
 import "./post-and-ads.css";
 import "./PostByCategory.css";
+import "./footer.css";
 
 const BigCardContent = {
   image:
@@ -185,6 +187,7 @@ const App = () => {
       <PostByCategory />
       <PostByCategory />
       <PostByCategory />
+      <Footer />
     </div>
   );
 };

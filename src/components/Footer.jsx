@@ -143,8 +143,57 @@ const Footer = () => {
           return <div className="footer-social-media-icon">{icon}</div>;
         })}
       </div>
-      <div className="footer-middle"></div>
-      <div className="footer-bottom"></div>
+      <div className="footer-middle">
+        <div className="footer-middle-left">
+          <div className="footer-logo">
+            <img src="https://lemonpress.mn/logo/lemonpress-white.svg" alt="" />
+          </div>
+          <div className="footer-about">
+            <p>
+              Бид санхүү, хөрөнгө оруулалтын мэдээ мэдээллийг ажлын өдрүүдэд
+              7:00 цагт таны имэйл хаягт хүргэх болно.
+            </p>
+          </div>
+          <div className="footer-contact">
+            <p>
+              Утас: 7755 2400
+              <br />
+              Имэйл:
+              <span className="footer-email">
+                <b> daily@lemonpress.mn</b>
+              </span>
+            </p>
+          </div>
+        </div>
+        <div className="footer-middle-right">
+          <div className="footer-middle-right-1">
+            <div className="nav-item-top">
+              <p>
+                <b>Товхимол</b>
+              </p>
+            </div>
+            <ul className="nav-item-bottom">
+              <li>Lemon Press</li>
+              <li>Inside Mongolia</li>
+            </ul>
+          </div>
+          <div className="footer-middle-right-2">
+            <div className="about-us-top">
+              <p>
+                <b>Бидний тухай</b>
+              </p>
+            </div>
+            <ul className="about-us-bottom">
+              <li>Бидний тухай</li>
+              <li>Хамтран ажиллах</li>
+              <li>Редакцын бодлого</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div className="footer-bottom">
+        <p>© Lemon Press Digital, Inc. All Rights Reserved.</p>
+      </div>
     </div>
   );
 };

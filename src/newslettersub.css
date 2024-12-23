@@ -1,6 +1,7 @@
 .NewsLetterSub {
-  background-image: url("https://lemonpress.mn/assets/subscribe-cover.png");
-  background: linear-gradient(0deg, #0040d4, #004dff);
+  /* background: linear-gradient(0deg, #0040d4, #004dff); */
+  background-image: linear-gradient(0deg, #0040d4c7, #004cffcc),
+    url("https://lemonpress.mn/assets/subscribe-cover.png");
   width: 1180px;
   height: 310px;
   margin: auto;
